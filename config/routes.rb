@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
 
-  get("/square/new", {:controller => "square" , :action => "new"})
+  get("", { :controller => "application", :action => "blank_square_form"})
 
 end
