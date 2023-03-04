@@ -12,3 +12,4 @@ class SquareController < ApplicationController
   render({  })
 
 end
+
