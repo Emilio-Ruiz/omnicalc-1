@@ -11,5 +11,6 @@ class SquareController < ApplicationController
 
   render({  })
 
+  def calculate_root
+    render({ :template => "square_root/new.html.erb"})
 end
-
