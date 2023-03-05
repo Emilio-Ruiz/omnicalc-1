@@ -13,7 +13,7 @@ class ApplicationController < ActionController::Base
     render({ :template => "calculation_templates/square_results.html.erb"})
   end
   def calculate_random
-    render({:temnplate => "calculation_templates"})
+    render({:template => "calculation_templates"})
   end
   def square_root 
     render({:template => "calculation_templates/square_root.html.erb"})
