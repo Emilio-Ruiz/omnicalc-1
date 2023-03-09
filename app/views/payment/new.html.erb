@@ -1,10 +1,10 @@
-<form action="/">
-<label name="">APR</label>
-<label>Number of years</label>
-<label>Principal</label>
-<input name = "payment"></input>
-<input name = "payment"></input>
-<input name = "payment"></input>
+<form action="/payment/results">
+<label for = "apr_input">APR</label>
+<input id="apr_input" text="text" name="user_apr" placeholder="E.g. 5.42">
+<label for ="years_input">Number of years</label>
+<input id="years_input" text="text" name = "user_years" placehold="How many years to repay?">
+<label for="principal_input">Principal</label>
+<input id = "principal_input" text="text" name="user_pv" placeholder="how much principal?"></input>
 <button>Calculate monthly payment
 </button>
 </form>

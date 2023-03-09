@@ -2,7 +2,7 @@
 
 Dynamic web applications are more interesting than static websites for one reason: **user input.** Let's finally learn how to let our users give us input!
 
-### [Here is the target we will ultimately build.](https://omnicalc-1.matchthetarget.com/)
+f### [Here is the target we will ultimately build.](https://omnicalc-1.matchthetarget.com/)
 
 #### [This chapter on forms may be helpful](https://chapters.firstdraft.com/chapters/881).
 
