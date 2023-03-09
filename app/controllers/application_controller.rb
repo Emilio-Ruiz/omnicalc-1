@@ -40,6 +40,8 @@ class ApplicationController < ActionController::Base
     @principal = params.fetch("user_pv").to_f 
     @principal_total = @principal
 
+    
+
 
     render({:template => "payment/results.html.erb"})
   end
@@ -49,7 +51,7 @@ class ApplicationController < ActionController::Base
     @upper = params.fetch("user_max").to_f
     @result = rand(@lower..@upper)
 
-    
+
     render({:template => "calculation_templates/rand_results.html.erb"})
   end
   
