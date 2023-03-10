@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get("payment/results", {:controller => "application", :action => "calculate_results"})
   get("/random/results", {:controller => "application", :action => "calculate_random"})
   
+  
 
   
   
