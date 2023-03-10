@@ -9,5 +9,5 @@
   <dd><% @numerator %>
   <dd><% @denominator %>
   <dt>Payment</dt>
-  <dd><%= @payment %>
+  <dd><%= @payment.to_s(:currency) %>
 </dl>
